@@ -1,0 +1,34 @@
+## To DO 
+
+
+
+
+## Start Up
+[] Create data.sql 
+[] npm install 
+[] npm run server 
+[] npm run client 
+
+## Base Mode 
+[]Create 4 views 
+    -1 [] How are you feeling today? 
+    -2 [] How well do you understand content
+    -3 [] how well are you being supported
+    -4 [] any comments?
+[] create review feedback page 
+[] create submit button for the survey 
+[] once submit button is clicked the data is saved to database 
+[] user will also see a success page on submit click 
+[] create a button to leave new feedback which resets the data
+    and takes user to the first page again 
+
+
+
+
+
+
+## Stretch Goals 
+[] Update Scores 
+[] Styling 
+[] Admin Section 
+[] Deploy
