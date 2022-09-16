@@ -6,7 +6,7 @@ const Comments = () => {
  
     const history = useHistory();
     
-    const comments= useSelector( store => store.feeling); //getter
+    const comments= useSelector( store => store.comments); //getter
     const dispatch = useDispatch();
 
    

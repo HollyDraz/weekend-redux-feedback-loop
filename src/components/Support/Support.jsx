@@ -6,12 +6,12 @@ const Support = () => {
  
     const history = useHistory();
     
-    const support = useSelector( store => store.feeling); //getter
+    const support = useSelector( store => store.support); //getter
     const dispatch = useDispatch();
 
     //next a dispatch 
     const handleChange = (event) => {
-        dispatch({type: 'SET_FEELING', payload: event.target.value })
+        dispatch({type: 'SET_SUPPORT', payload: event.target.value })
     }
  return (
     <>

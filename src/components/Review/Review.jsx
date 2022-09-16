@@ -11,8 +11,8 @@ const Review = () => {
 
     const feeling = useSelector(store => store.feeling);
     const understanding = useSelector( store => store.understanding); 
-    const support = useSelector( store => store.feeling);
-    const comments= useSelector( store => store.feeling);
+    const support = useSelector( store => store.support);
+    const comments= useSelector( store => store.comments);
 
 
     //add the data together on one page to review
@@ -27,9 +27,9 @@ const Review = () => {
                 comments,
             },
         }).then((response) => {
-            // Clear all reducers
+            // Clear the inputs
             dispatch({ type: 'CLEAR_ALL' });
-            // Navigate to the Activity Log
+            
             history.push('/');
         }).catch((error) => {
             console.log(error);
@@ -56,7 +56,7 @@ const Review = () => {
                     <br/>
                     Comments: {comments}
                 </ul>
-             <button onClick={() => history.push('/thanks')} className="button">Submit</button>
+             <button onClick={() =>{history.push('/thanks'); handleReview();}}>Submit</button>
             </div>
         </>
     );

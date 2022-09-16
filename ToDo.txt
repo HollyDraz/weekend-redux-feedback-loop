@@ -9,18 +9,18 @@
 
 ## Base Mode 
 []Create 5 views 
-    -1 [] How are you feeling today? 
-        -[] test for funtionality
-        -[] create reducer for it 
-    -2 [] How well do you understand content
-    -3 [] how well are you being supported
-    -4 [] any comments?
-    -5[] review feedback 
-[] create review feedback page 
-[] create submit button for the survey 
+    -1 [x] How are you feeling today? 
+        -[x] test for funtionality
+        -[x] create reducer for it 
+    -2 [x] How well do you understand content
+    -3 [x] how well are you being supported
+    -4 [x] any comments?
+    -5[x] review feedback 
+[x] create review feedback page 
+[x] create submit button for the survey 
 [] once submit button is clicked the data is saved to database 
-[] user will also see a success page on submit click 
-[] create a button to leave new feedback which resets the data
+[x] user will also see a success page on submit click 
+[x] create a button to leave new feedback which resets the data
     and takes user to the first page again 
 
 
