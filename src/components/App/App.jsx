@@ -4,7 +4,7 @@ import axios from 'axios';
 import './App.css';
 import Feeling from '../Feeling/Feeling';
 import Understanding from '../Understanding/Understanding';
-
+import Support from '../Support/Support';
 function App() {
 
   return (
@@ -19,6 +19,9 @@ function App() {
         </Route>
         <Route exact path='/Understanding'>
           <Understanding/>
+        </Route>
+        <Route exact path="/Support">
+          <Support/>
         </Route>
       </Router>
     </div>

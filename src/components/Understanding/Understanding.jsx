@@ -18,7 +18,7 @@ const Understanding = () => {
     <div>
         <h3>How is your understanding?</h3>
         <input value={understanding} onChange ={handleChange} className="input" type="text" />
-        <button onClick={() => history.push()} className="button">Next</button>
+        <button onClick={() => history.push('/support')} className="button">Next</button>
     </div>
 
     </>
