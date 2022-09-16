@@ -1,10 +1,10 @@
 ## To DO 
 
 ## Start Up
-[] Create data.sql 
-[] npm install 
-[] npm run server 
-[] npm run client 
+[x] Create data.sql 
+[x] npm install 
+[x] npm run server 
+[x] npm run client 
 [x] npm install redux-logger@3
 
 ## Base Mode 

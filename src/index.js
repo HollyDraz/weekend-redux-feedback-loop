@@ -8,6 +8,12 @@ import logger from 'redux-logger';
 import registerServiceWorker from './registerServiceWorker';
 
 //reducer for Feelings 
+const feeling = (state = '', action) => {
+    if(action.type === 'SET_FEELING'){
+        return action.payload;
+    }
+    return state;
+}
 
 
 //reducer storage 
@@ -15,6 +21,7 @@ const storeInstance = createStore(
     // reducers go here
     combineReducers(
         {
+            feeling,
     
         }
     ),
