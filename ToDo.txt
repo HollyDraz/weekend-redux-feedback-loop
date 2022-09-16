@@ -5,7 +5,7 @@
 [] npm install 
 [] npm run server 
 [] npm run client 
-[] npm install redux-logger@3
+[x] npm install redux-logger@3
 
 ## Base Mode 
 []Create 5 views 
