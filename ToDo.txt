@@ -11,6 +11,7 @@
 []Create 5 views 
     -1 [] How are you feeling today? 
         -[] test for funtionality
+        -[] create reducer for it 
     -2 [] How well do you understand content
     -3 [] how well are you being supported
     -4 [] any comments?
