@@ -14,6 +14,14 @@ const feeling = (state = '', action) => {
     }
     return state;
 }
+//reducer for understanding
+const understanding = (state = '', action) => {
+    if(action.type === 'SET_UNDERSTANDING'){
+        return action.payload;
+    }
+    return state;
+}
+
 
 
 //reducer storage 
@@ -22,6 +30,7 @@ const storeInstance = createStore(
     combineReducers(
         {
             feeling,
+            understanding,
     
         }
     ),

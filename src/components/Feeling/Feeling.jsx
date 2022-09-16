@@ -18,7 +18,7 @@ import { useHistory } from 'react-router-dom';
     <div>
         <h3>How are you feeling?</h3>
         <input value={feeling} onChange ={handleChange} className="input" type="text" />
-        <button onClick={() => history.push()} className="button">Next</button>
+        <button onClick={() => history.push('/understanding')} className="button">Next</button>
     </div>
 
     </>
