@@ -18,7 +18,7 @@ const Comments = () => {
     <div>
         <h3>Any Comments you'd like to leave?</h3>
         <input value={comments} onChange ={handleChange} className="input" type="text" />
-        <button onClick={() => history.push('/submit')} className="button">Next</button>
+        <button onClick={() => history.push('/review')} className="button">Next</button>
     </div>
 
     </>

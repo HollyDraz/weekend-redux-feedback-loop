@@ -56,7 +56,7 @@ const Review = () => {
                     <br/>
                     Comments: {comments}
                 </ul>
-             <button  className="button">Submit</button>
+             <button onClick={() => history.push('/thanks')} className="button">Submit</button>
             </div>
         </>
     );
