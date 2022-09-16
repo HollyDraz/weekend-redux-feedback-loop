@@ -28,6 +28,13 @@ const support = (state = '', action) => {
     }
     return state;
 }
+//reducer for the comments page 
+const comments = (state = '', action) => {
+    if(action.type === 'SET_COMMENTS'){
+        return action.payload;
+    }
+    return state;
+}
 
 
 //reducer storage 
@@ -38,6 +45,7 @@ const storeInstance = createStore(
             feeling,
             understanding,
             support,
+            comments,
     
         }
     ),

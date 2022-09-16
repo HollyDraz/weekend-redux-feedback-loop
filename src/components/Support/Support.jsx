@@ -18,7 +18,7 @@ const Support = () => {
     <div>
         <h3>How supported do you feel?</h3>
         <input value={support} onChange ={handleChange} className="input" type="text" />
-        <button onClick={() => history.push('')} className="button">Next</button>
+        <button onClick={() => history.push('/comments')} className="button">Next</button>
     </div>
 
     </>
