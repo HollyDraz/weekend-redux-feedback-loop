@@ -21,7 +21,13 @@ const understanding = (state = '', action) => {
     }
     return state;
 }
-
+//reducer for support 
+const support = (state = '', action) => {
+    if(action.type === 'SET_SUPPORT'){
+        return action.payload;
+    }
+    return state;
+}
 
 
 //reducer storage 
@@ -31,6 +37,7 @@ const storeInstance = createStore(
         {
             feeling,
             understanding,
+            support,
     
         }
     ),
