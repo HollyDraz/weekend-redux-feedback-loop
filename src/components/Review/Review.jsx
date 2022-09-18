@@ -19,7 +19,7 @@ const Review = () => {
     const handleReview = () => {
         axios({
             method: 'POST',
-            url: '/',
+            url: '/feedback',
             data: {
                 feeling,
                 understanding,
@@ -29,20 +29,13 @@ const Review = () => {
         }).then((response) => {
             // Clear the inputs
             dispatch({ type: 'CLEAR_ALL' });
-            
-            history.push('/');
+            history.push('/thanks');
         }).catch((error) => {
             console.log(error);
-            alert('Something went wrong!')
+            alert('Something went wrong!!!')
         })
     }
-
- 
-
-
-
-
-    
+    //console.log(handleReview);
     return (
         <>
             <h3>Review</h3>
@@ -56,7 +49,7 @@ const Review = () => {
                     <br/>
                     Comments: {comments}
                 </ul>
-             <button onClick={() =>{history.push('/thanks'); handleReview();}}>Submit</button>
+             <button onClick={handleReview}>Submit</button>
             </div>
         </>
     );
